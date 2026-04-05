@@ -78,17 +78,22 @@ export default function OnboardingPage() {
         <div style={{ minHeight: '100vh', background: '#0a0a0f', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '2rem' }}>
             <div style={{ background: '#111118', border: '1px solid #ffffff22', borderRadius: '20px', padding: '2.5rem', width: '100%', maxWidth: 480 }}>
 
-                <div style={{ fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: '1.5rem', marginBottom: '0.25rem' }}>
-                    hostel<span style={{ color: '#7c5cfc' }}>ify</span>
+                {/* Brand */}
+                <div style={{ marginBottom: '1.5rem' }}>
+                    <div style={{ fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: '2.2rem', letterSpacing: '0.04em', color: '#f0f0f8' }}>
+                        AAN<span style={{ color: '#7c5cfc' }}>GAN</span>
+                    </div>
+                    <div style={{ fontSize: '0.72rem', color: '#7c5cfc99', fontFamily: 'DM Sans, sans-serif', letterSpacing: '0.06em', marginTop: '0.2rem' }}>
+                        Alert · Announce · Network · Gather · Assist & Nurture
+                    </div>
                 </div>
-                <div style={{ color: '#a0a0b8', fontSize: '0.875rem', marginBottom: '1.5rem' }}>Your campus life, connected</div>
 
                 <StepDots />
 
                 {/* Step 1 */}
                 {step === 1 && (
                     <div>
-                        <div style={{ fontFamily: 'Syne, sans-serif', fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.25rem' }}>Create your profile</div>
+                        <div style={{ fontFamily: 'Syne, sans-serif', fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.25rem', color: '#f0f0f8' }}>Create your profile</div>
                         <div style={{ color: '#a0a0b8', fontSize: '0.85rem', marginBottom: '1.5rem' }}>Tell us who you are</div>
 
                         <label style={label}>Full Name</label>
@@ -107,7 +112,7 @@ export default function OnboardingPage() {
                 {/* Step 2 */}
                 {step === 2 && (
                     <div>
-                        <div style={{ fontFamily: 'Syne, sans-serif', fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.25rem' }}>Academic profile</div>
+                        <div style={{ fontFamily: 'Syne, sans-serif', fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.25rem', color: '#f0f0f8' }}>Academic profile</div>
                         <div style={{ color: '#a0a0b8', fontSize: '0.85rem', marginBottom: '1.5rem' }}>Connect with the right people</div>
 
                         <label style={label}>Discipline / Branch</label>
@@ -142,7 +147,7 @@ export default function OnboardingPage() {
                 {/* Step 3 */}
                 {step === 3 && (
                     <div>
-                        <div style={{ fontFamily: 'Syne, sans-serif', fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.25rem' }}>What are you into?</div>
+                        <div style={{ fontFamily: 'Syne, sans-serif', fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.25rem', color: '#f0f0f8' }}>What are you into?</div>
                         <div style={{ color: '#a0a0b8', fontSize: '0.85rem', marginBottom: '1.5rem' }}>Find your people in the hostel</div>
 
                         <label style={label}>Leisure Interests</label>
@@ -162,7 +167,7 @@ export default function OnboardingPage() {
                             <button onClick={() => setStep(2)} style={{ flex: 1, padding: '0.85rem', borderRadius: '10px', border: '1px solid #ffffff22', background: 'transparent', color: '#a0a0b8', cursor: 'pointer', fontFamily: 'Syne, sans-serif', fontWeight: 700 }}>← Back</button>
                             <button onClick={handleFinish} disabled={loading}
                                 style={{ flex: 2, padding: '0.85rem', borderRadius: '10px', border: 'none', background: '#7c5cfc', color: '#fff', fontFamily: 'Syne, sans-serif', fontWeight: 700, cursor: 'pointer' }}>
-                                {loading ? 'Setting up...' : 'Enter Hostelify 🚀'}
+                                {loading ? 'Setting up...' : 'Enter AANGAN 🚀'}
                             </button>
                         </div>
                     </div>

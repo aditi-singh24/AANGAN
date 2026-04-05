@@ -42,7 +42,7 @@ export default function LoginPage() {
 
                 {/* Brand */}
                 <div style={{ marginBottom: '2rem' }}>
-                    <div style={{ fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: '2.2rem', letterSpacing: '0.04em' }}>
+                    <div style={{ fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: '2.2rem', letterSpacing: '0.04em', color: '#f0f0f8' }}>
                         AAN<span style={{ color: '#7c5cfc' }}>GAN</span>
                     </div>
                     <div style={{ fontSize: '0.72rem', color: '#7c5cfc99', fontFamily: 'DM Sans, sans-serif', letterSpacing: '0.06em', marginTop: '0.2rem' }}>
@@ -50,7 +50,7 @@ export default function LoginPage() {
                     </div>
                 </div>
 
-                <div style={{ fontFamily: 'Syne, sans-serif', fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.25rem' }}>
+                <div style={{ fontFamily: 'Syne, sans-serif', fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.25rem', color: '#f0f0f8' }}>
                     {isSignUp ? 'Create your account' : 'Welcome back'}
                 </div>
                 <div style={{ color: '#a0a0b8', fontSize: '0.85rem', marginBottom: '1.5rem' }}>
